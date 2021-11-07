@@ -7,6 +7,7 @@ public class printV {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
+
         int input = Integer.parseInt(scan.nextLine());
         String five = "*****";
         String indent = "";
