@@ -20,7 +20,7 @@ int findFirstNonRepeated(int arr[], int n) {
     return -1; // Ако е открит неповтарящ се елемент
 
 int main() {
-    int arr[] = {7 , 55, 55 , 66, 66};
+    int arr[] = {7 , 55, 55 , 66, 66}; // Тук влиза масива
     int n = sizeof(arr) / sizeof(arr[0]);
     int result = findFirstNonRepeated(arr, n);
     
